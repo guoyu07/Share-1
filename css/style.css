@@ -1,0 +1,21 @@
+body {
+	background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(bg.png) repeat 0 0, url(bg.jpg) repeat 0 0;	
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%), url(bg.jpg) repeat 0 0;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.7)), color-stop(100%,rgba(255,255,255,0.7))), url(bg.jpg) repeat 0 0;
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%), url(bg.jpg) repeat 0 0;
+	background: -o-linear-gradient(top, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%), url(bg.jpg) repeat 0 0;
+	background: -ms-linear-gradient(top, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%), url(bg.jpg) repeat 0 0;
+	background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%), url(bg.jpg) repeat 0 0;
+	background-size: 1920px 1080px;
+}
+.fileList {
+	background-color:#E8E8E8;
+	width: 800;
+	border-style: solid;
+	border-size: 1px;
+	border-color: #BCBCBC;
+	margin: 0px;
+}
+.fileList-List {
+	line-height: 0%;	
+}
